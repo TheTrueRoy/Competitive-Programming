@@ -1,29 +1,15 @@
 ﻿#include <iostream>
-#include <iomanip>
 #include <vector>
-#include <algorithm>
-#include <cmath>
-#include <queue>
-#include <set>
-#include <string>
-#include <stack>
-#include <climits>
 #include <array>
 
-/*	Completion date: 2021/07/22	*
- *	CCC Grader Score: 15/15		*/
+/*	Completion date: 2021/02/22		*
+ *	CCC Grader Score: 15/15			*
+ *	DMOJ: 15/15, 0.970s, 22.61mb	*/
 
 using namespace std;
 
 #define fori(l,n) for(int i = l; i < n; i++)
 #define forj(l,n) for(int j = l; j < n; j++)
-#define ii pair<int,int>
-#define iii pair<int, pair<int,int>>
-#define sf second.first
-#define ss second.second 
-#define ll long long
-#define pb push_back 
-
 int gcd(int a, int b) {
 	if (b == 0)
 		return a;
